@@ -19,12 +19,12 @@ public class Main1
 		System.out.println("Enter the over number ");
 		int ov=s.nextInt();
 		try { 
-            // invalid index 
+            
             int x = (int)Array.get(a, ov); 
             System.out.println(x); 
         } 
         catch (Exception e) { 
-            // throws Exception 
+            
             System.out.println("Exception : " + e); 
         } 
 	}
